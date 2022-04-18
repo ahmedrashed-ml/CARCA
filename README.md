@@ -1,6 +1,6 @@
 # CARCA
 
-This is our implementation for the 2022 paper:
+This is our implementation for the 2022 CARCA paper https://arxiv.org/abs/2204.06519:
 
 Rashed, Ahmed, et al. "CARCA: Context and Attribute-Aware Next-Item Recommendation via Cross-Attention"
 
