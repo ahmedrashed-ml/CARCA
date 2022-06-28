@@ -6,9 +6,10 @@
 
 # CARCA
 
-This is our implementation for the 2022 CARCA paper https://arxiv.org/abs/2204.06519:
+This is our implementation for the CARCA paper accepted at RecSys 2022 
+https://arxiv.org/abs/2204.06519:
 
-Rashed, Ahmed, et al. "CARCA: Context and Attribute-Aware Next-Item Recommendation via Cross-Attention"
+Rashed, Ahmed, et al. "Context and Attribute-Aware Sequential Recommendation via Cross-Attention"
 
 
 ## Enviroment 
