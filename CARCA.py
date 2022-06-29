@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Commented out IPython magic to ensure Python compatibility.
-# %tensorflow_version 1.x 
-
 """#UTILS"""
 
 import sys
@@ -499,10 +496,8 @@ class WarpSampler(object):
 
 """#Modules"""
 
-# -*- coding: utf-8 -*-
-#/usr/bin/python2
 '''
-June 2017 by kyubyong park. 
+Modified version of the original code by kyubyong park. 
 kbpark.linguist@gmail.com.
 https://www.github.com/kyubyong/transformer
 '''
