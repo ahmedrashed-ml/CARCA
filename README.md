@@ -7,7 +7,7 @@
 # CARCA
 
 This is our implementation for the CARCA paper accepted at RecSys 2022 
-https://arxiv.org/abs/2204.06519:
+https://dl.acm.org/doi/10.1145/3523227.3546777:
 
 Rashed, Ahmed, et al. "Context and Attribute-Aware Sequential Recommendation via Cross-Attention"
 
