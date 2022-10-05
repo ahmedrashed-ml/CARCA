@@ -11,6 +11,7 @@ https://dl.acm.org/doi/10.1145/3523227.3546777:
 
 Rashed, Ahmed, et al. "Context and Attribute-Aware Sequential Recommendation via Cross-Attention"
 
+Please cite our paper if you use the code or datasets.
 
 ## Enviroment 
 	* pandas==1.0.3
