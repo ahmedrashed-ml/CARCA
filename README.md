@@ -32,5 +32,11 @@ Please cite our paper if you use the code or datasets.
 - python CARCA.py 'Beauty'
 - python CARCA.py 'Fashion'
 
+4) To preprocess raw Amazon reviews data, please use the DataProcessing.py and put the reviews and metadata in the RawData folder. Also, generate the context dictionaries using the commented section in the CARCA.py
+
+5) To preprocess the Men and Fashion image features from scratch you will need to download all products images and pass them through a pre-trained resnet 50 model. Then match them using their ASIN code with the reviews data.
+
+
+
 ## Important Note
 If you are planning to apply CARCA on datasets without attributes or context, it is advisable to use rolling window protocol for training the model as the current training protocol (right shifted input) might not be stable in those scenarios.
