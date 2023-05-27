@@ -1245,10 +1245,27 @@ if dataset_name == 'Video_Games':
         use_res = True
     args = Args()
 
-#with open(os.path.join(args.dataset + '_' + args.train_dir, 'args.txt'), 'w') as f:
-#    f.write('\n'.join([str(k) + ',' + str(v) for k, v in sorted(vars(args).items(), key=lambda x: x[0])]))
-#f.close()
 
+
+# Uncomment these sections to generate the context dictionaries for each dataset if the datasets were preprocessed from scratch.
+
+#if dataset_name == 'Beauty' :
+#  TrainDf, CXTDict = PreprocessData_Beauty("./Data/Beauty_cxt.txt", args.dataset, sep=" ")
+#  save_data(CXTDict,'./Data/CXTDictSasRec_Beauty.dat')
+  
+#if dataset_name == 'Video_Games' :
+#  TrainDf, CXTDict = PreprocessData_Games("./Data/Video_Games_cxt.txt", args.dataset, sep=" ")
+#  save_data(CXTDict,'./Data/CXTDictSasRec_Games.dat')
+
+#if dataset_name == 'Men' :
+#  TrainDf, CXTDict = PreprocessData_Men("./Data/Men_cxt.txt", args.dataset, sep=" ")
+#  save_data(CXTDict,'./Data/CXTDictSasRec_Men.dat')
+
+#if dataset_name == 'Fashion' :
+#  TrainDf, CXTDict = PreprocessData_Fashion("./Data/Fashion_cxt.txt", args.dataset, sep=" ")
+#  save_data(CXTDict,'./Data/CXTDictSasRec_Fashion.dat')
+
+##
 
 dataset = data_partition(args.dataset)
 [user_train, user_valid, user_test, usernum, itemnum] = dataset
